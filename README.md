@@ -2,11 +2,14 @@
 
 A modern, full-featured Applicant Tracking System built with Next.js 14, designed to streamline your hiring process.
 
+🔗 **Live Application:** [https://miniats-ten.vercel.app](https://miniats-ten.vercel.app)  
+📦 **GitHub Repository:** [https://github.com/ShivanshPandey2005/mini-ats](https://github.com/ShivanshPandey2005/mini-ats)
+
 ![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-38B2AC?logo=tailwind-css)
 ![Prisma](https://img.shields.io/badge/Prisma-5-2D3748?logo=prisma)
-![SQLite](https://img.shields.io/badge/SQLite-3-003B57?logo=sqlite)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Neon-4169E1?logo=postgresql)
 
 ## ✨ Features
 
