@@ -130,14 +130,27 @@ mini_ats/
 ### Dashboard
 The dashboard provides an at-a-glance overview of your hiring pipeline with interactive charts and metrics.
 
+![Dashboard](public/screenshots/dashboard.png)
+
 ### Candidate List
 Browse, search, and filter candidates with a clean card-based layout.
+
+![Candidates](public/screenshots/candidates.png)
+
+### Add Candidate
+Add new candidates with a clean form including validation.
+
+![Add Candidate](public/screenshots/add-candidate.png)
 
 ### Kanban Pipeline
 Drag and drop candidates across hiring stages in an intuitive board view.
 
+![Pipeline](public/screenshots/pipeline.png)
+
 ### Candidate Detail
 View complete candidate information, edit details, change stages, and review transition history.
+
+![Candidate Detail](public/screenshots/candidate-detail.png)
 
 ## 🚀 Deployment
 
