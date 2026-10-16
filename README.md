@@ -43,7 +43,7 @@ A modern, full-featured Applicant Tracking System built with Next.js 14, designe
 |-------|-----------|
 | **Frontend** | Next.js 14 (App Router), React 18, TypeScript |
 | **Styling** | Tailwind CSS 3 |
-| **Database** | SQLite via Prisma ORM |
+| **Database** | PostgreSQL (Neon) via Prisma ORM |
 | **Charts** | Recharts |
 | **Drag & Drop** | @dnd-kit |
 | **Icons** | Lucide React |
@@ -58,7 +58,7 @@ A modern, full-featured Applicant Tracking System built with Next.js 14, designe
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/mini-ats.git
+git clone https://github.com/ShivanshPandey2005/mini-ats.git
 cd mini-ats
 
 # Install dependencies
@@ -83,9 +83,8 @@ Open [http://localhost:3000](http://localhost:3000) to view the app.
 ```
 mini_ats/
 ├── prisma/
-│   ├── schema.prisma     # Database schema
-│   ├── seed.ts           # Seed data script
-│   └── dev.db            # SQLite database
+│   ├── schema.prisma     # Database schema (PostgreSQL)
+│   └── seed.ts           # Seed data script
 ├── src/
 │   ├── app/
 │   │   ├── api/
@@ -161,9 +160,8 @@ View complete candidate information, edit details, change stages, and review tra
 
 1. Push your code to GitHub
 2. Import the repository in [Vercel](https://vercel.com)
-3. Deploy — Vercel auto-detects Next.js configuration
-
-> **Note:** For production, consider using PostgreSQL or another production database instead of SQLite.
+3. Set the `DATABASE_URL` environment variable with your Neon PostgreSQL connection string
+4. Deploy — Vercel auto-detects Next.js and Prisma configuration
 
 ## 📄 License
 
